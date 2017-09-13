@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         numNote.setDisplayedValues(new String[]{"A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#"});
         num = (NumberPicker) findViewById(R.id.num);
         num.setMaxValue(5);
-        num.setMinValue(1);
+        num.setMinValue(1);//haha
 
     }
 
